@@ -16,6 +16,11 @@ function AgregarFila(){
     } else {
         message = "meta alcanzada";
     }
+    
+    c1.appendChild(fechaText);
+    c2.appendChild(bebidaText);
+    c3.appendChild(cantidadText);
+    c4.appendChild(messageText);
 
  
         f.appendChild(c1);
