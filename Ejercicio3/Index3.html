@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registrio de bebidas</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Registrar bebidas</h1>
+    </header>
+
+    <div class="formulario">
+        <label for="fecha">Fecha: </label><br>
+        <input type="date" id="fecha" name="fecha" />
+        <br><br>
+        <label for="bebida">Escoge tu bebida:</label><br>
+        <select id="bebida" name="bebida">
+            <option value="Agua">Agua</option>
+            <option value="Café">Café</option>
+            <option value="Chocolate Caliente">ChocolateCaliente</option>
+            <option value="Soda">Soda</option>
+            <option value="Jugo">Jugo</option>
+        </select>
+        <br><br>
+        <label for="cantidad">Cantidad de bebidas: </label><br>
+        <input type="number" id="cantidad" name="cantidad" placeholder="Inserte la cantidad de bebidas..." />
+
+        <table id= "tabla1" class= "tabla">
+            <tr>
+              <th>Fecha</th>
+              <th>Bebida</th> 
+              <th>Cantidad</th>
+              <th>Mensaje</th>
+        </table>
+
+        <br><br>
+        <input type="submit" value="Submit" onclick="AgregarFila()">
+    </div>
+
+    <br>
+
+</body>
+
+</html>
